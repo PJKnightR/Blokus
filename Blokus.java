@@ -7,7 +7,7 @@ import java.io.File;
 
 public class Blokus
 {
-   public static final int NUM_PLAYERS = 4;
+   public static final int NUM_PLAYERS = 2;
    
    public static class BlokusFrame extends JFrame
    {
@@ -32,9 +32,9 @@ public class Blokus
          board = new BlokusBoard();
          players = new BlokusPlayer[NUM_PLAYERS];
          players[0] = new BlokusPlayer(BlokusBoard.BLUE);
-         players[1] = new BlokusPlayer(BlokusBoard.RED);
-         players[2] = new BlokusPlayer(BlokusBoard.YELLOW);
-         players[3] = new BlokusPlayer(BlokusBoard.GREEN);
+         //players[1] = new BlokusPlayer(BlokusBoard.RED);
+         players[1] = new BlokusPlayer(BlokusBoard.YELLOW);
+         //players[3] = new BlokusPlayer(BlokusBoard.GREEN);
          
          setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          initializeGUI();
@@ -309,8 +309,8 @@ public class Blokus
          switch (index)
          {
             case 0: return BlokusBoard.BLUE;
-            case 1: return BlokusBoard.RED;
-            case 2: return BlokusBoard.YELLOW;
+            case 1: return BlokusBoard.YELLOW;
+            case 2: return BlokusBoard.RED;
             case 3: return BlokusBoard.GREEN;
             default: return 0;
          }

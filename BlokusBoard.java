@@ -151,7 +151,7 @@ public class BlokusBoard
                   g.setColor(getColor(BLUE));
                   corner = true;
                }
-               else if (getCorner(RED).equals(p))
+               /*else if (getCorner(RED).equals(p))
                {
                   g.setColor(getColor(RED));
                   corner = true;
@@ -160,7 +160,7 @@ public class BlokusBoard
                {
                   g.setColor(getColor(GREEN));
                   corner = true;
-               }
+               }*/
                else if (getCorner(YELLOW).equals(p))
                {
                   g.setColor(getColor(YELLOW));

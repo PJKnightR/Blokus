@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Blokus">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Blokus.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
